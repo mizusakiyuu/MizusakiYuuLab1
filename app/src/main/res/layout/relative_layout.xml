@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Relative Layout"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="345dp"
+        android:layout_height="207dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/manila" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Walk This Way"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="256dp"
+        android:layout_marginStart="0dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:text="Location: Santa Clara St Fort Santiago, Intramuros, Manila, Luzon 1008 Philippines" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-256dp"
+        android:paddingBottom="150dp"
+        android:paddingLeft="10dp"
+        android:text="Distance from UST: 3.8 km" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="41dp"
+        android:layout_weight="1"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="42dp"
+        android:layout_weight="1"
+        android:text="Next" />
+</RelativeLayout>
